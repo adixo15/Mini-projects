@@ -1,0 +1,81 @@
+body {
+  background-color: #457B9D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  background-color: #E5989B;
+  padding: 35px;
+  height: 30rem;
+  width: 25rem;
+  border-radius: 22px;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.para {
+  margin-bottom: 40px;
+  font-weight: 650;
+  text-align: center;
+}
+
+.para p {
+  margin: 5px 0;
+}
+
+#guessField {
+  padding: 10px;
+  margin: 20px auto;
+  border: none;
+  width: 70%;
+  font-size: 16px;
+  border-radius: 30px;
+  display: block;
+  text-align: center;
+}
+
+#subt,
+#newGame {
+  display: block;
+  padding: 14px;
+  width: 70%;
+  margin: 20px auto;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  background-color: #2a9d8f;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#subt:hover,
+#newGame:hover {
+  background-color: #21867a;
+}
+
+.resultParas {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.loworHi {
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 20px;
+}
