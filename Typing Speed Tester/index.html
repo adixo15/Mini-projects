@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Tester</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="card">
+        <h1>Typing Speed Tester</h1>
+        <section id="quote" class="quote" aria-label="text to type"></section>
+        <div class="row">
+             <input id="input" class="input" type="text" placeholder="Start typing here..." autocomplete="off" />
+      <button id="newTest" class="btn">New Test</button>
+        </div>
+        <section class="stats">
+            <div><span id="time">0.0</span> s</div>
+             <div><span id="wpm">0</span> WPM</div>
+             <div><span id="accuracy">100</span>% Accuracy</div>
+             <div><span id="mistakes">0</span> Mistakes</div>
+            </section>
+            <p class="hint">Timer starts on your first key. Press <b>New Test</b> for a fresh sentence.</p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
